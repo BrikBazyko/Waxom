@@ -1,0 +1,13 @@
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  &--header{
+    padding-top: 50px;
+  }
+  &--card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

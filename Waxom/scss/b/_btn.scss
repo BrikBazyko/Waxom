@@ -1,0 +1,44 @@
+.btn{
+  &--post{
+    text-transform: uppercase;
+    background: #998675;
+    padding:20px 30px;
+    border-radius: 5px;
+    margin-bottom: 380px;
+    margin-top: 50px;
+  }
+  &--purchase{
+    background: #998675;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  &--card-row{
+    background: #998675;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  &--card-menu--item{
+    color: #8c8c8c;
+  }
+
+}

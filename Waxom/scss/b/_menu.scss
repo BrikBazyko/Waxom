@@ -1,0 +1,31 @@
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  &-list{
+    display: flex;
+    &__item{
+      margin-right: 20px;
+    }
+  }
+  &--new{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+    &-item{
+      margin-bottom: 10px;
+      color: #8c8c8c;
+      position: relative;
+    }
+    &-item::before {
+      content: "";
+      background: url(../img/arrow.png) no-repeat;
+      position: absolute;
+      width: 28px;
+      height: 20px;
+      left: -40px;
+      bottom: 0px;
+    }
+  }
+}
+

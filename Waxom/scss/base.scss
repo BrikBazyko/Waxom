@@ -1,0 +1,23 @@
+.content-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+li{
+  list-style-type: none;
+}
+
+.color{
+  color: #c7b299;
+}
+*{
+  margin: 0;
+}
+.time{
+  color:#c1ad96 ;
+}

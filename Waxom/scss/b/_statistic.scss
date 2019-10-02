@@ -1,0 +1,16 @@
+
+.statistic{
+  background: url('../img/background-statistic.png') no-repeat;
+  background-size: cover;
+}
+.statistic-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statistic-row--item{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  text-align: center;
+}

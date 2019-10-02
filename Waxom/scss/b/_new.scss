@@ -1,0 +1,13 @@
+.new{
+  display: flex;
+  justify-content: center;
+  &--img{
+    margin-top: 60px;
+  }
+  &-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+  }
+}

@@ -1,0 +1,16 @@
+.present{
+  background: url("../img/background-present.png") no-repeat;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-size: cover;
+  &--img{
+    background: #5c5e62;
+    padding: 15px;
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+}

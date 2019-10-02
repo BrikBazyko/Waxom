@@ -1,0 +1,56 @@
+.text{
+  &--post{
+    font-size: 18px;
+  }
+  &--gallery-item{
+    color: #8c8c8c;
+  }
+  &--ideas-box{
+    width: 632px;
+    text-align: center;
+    color: #8c8c8c;
+    margin: 15px 0 30px;
+  }
+  &--purchase-box{
+    color: #615855;
+  }
+  &--card-box{
+    width: 630px;
+    text-align: center;
+  }
+  &--card-row{
+    color: #d1d1d1;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  &--card-box{
+    color: #8c8c8c;
+    margin-bottom: 30px;
+  }
+  &--present{
+    margin-bottom: 30px;
+    max-width: 480px;
+    text-align: center;
+  }
+  &--new-box{
+    width: 560px;
+    color: #8c8c8c;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  &--statistic-row--item{
+    position: relative;
+    text-transform: uppercase;
+    color: #998675;
+    font-size: 14px;
+  }
+  &--statistic-row--item::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    color: red;
+    bottom: -15px;
+    left: 35px;
+  }
+}

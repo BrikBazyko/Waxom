@@ -1,0 +1,27 @@
+.ideas{
+  background: #fbfaf8;
+  &-box{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-image{
+    display: flex;
+  }
+  &-image IMG {
+    position: relative;
+  }
+  &-image--center{
+    z-index: 5;
+    margin-left: -542px;
+  }
+  &-image--left{
+    z-index: 1;
+  }
+  &-image--right{
+    z-index: 1;
+    margin-left: -540px;
+  }
+}
